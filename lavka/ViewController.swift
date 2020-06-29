@@ -90,6 +90,208 @@ class ViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
     
+    
+    let dvanono = Lavka(number:"200", coordinate: CLLocationCoordinate2D(latitude : 59.9188256, longitude:30.3109387))
+
+    let oddede = Lavka(number:"199", coordinate: CLLocationCoordinate2D(latitude : 59.9188145, longitude:30.3108515))
+
+    let oddevo = Lavka(number:"198", coordinate: CLLocationCoordinate2D(latitude : 59.9188152, longitude:30.3107864))
+
+    let oddese = Lavka(number:"197", coordinate: CLLocationCoordinate2D(latitude : 59.9188145, longitude:30.3108515))
+
+    let oddeshe = Lavka(number:"196", coordinate: CLLocationCoordinate2D(latitude : 59.9178046, longitude:30.3108743))
+
+    let oddepya = Lavka(number:"195", coordinate: CLLocationCoordinate2D(latitude : 59.9177592, longitude:30.3108159))
+
+    let oddeche = Lavka(number:"194", coordinate: CLLocationCoordinate2D(latitude : 59.9178410, longitude:30.3107680))
+
+    let oddetri = Lavka(number:"193", coordinate: CLLocationCoordinate2D(latitude : 59.9177819, longitude:30.3107100))
+
+    let oddedva = Lavka(number:"192", coordinate: CLLocationCoordinate2D(latitude : 59.9170782, longitude:30.3117862))
+
+    let oddeod = Lavka(number:"191", coordinate: CLLocationCoordinate2D(latitude : 59.9177819, longitude:30.3107100))
+
+    let oddeno = Lavka(number:"190", coordinate: CLLocationCoordinate2D(latitude : 59.9175158, longitude:30.3114882))
+
+    let odvode = Lavka(number:"189", coordinate: CLLocationCoordinate2D(latitude : 59.9177819, longitude:30.3107100))
+
+    let odvovo = Lavka(number:"188", coordinate: CLLocationCoordinate2D(latitude : 59.9175602, longitude:30.3115633))
+
+    let odvose = Lavka(number:"187", coordinate: CLLocationCoordinate2D(latitude : 59.9176459, longitude:30.3115844))
+
+    let odvoshe = Lavka(number:"186", coordinate: CLLocationCoordinate2D(latitude : 59.9176795, longitude:30.3114982))
+
+    let odvopya = Lavka(number:"185", coordinate: CLLocationCoordinate2D(latitude : 59.9176662, longitude:30.3113866))
+
+    let odvoche = Lavka(number:"184", coordinate: CLLocationCoordinate2D(latitude : 59.9176054, longitude:30.3113306))
+
+    let odvotri = Lavka(number:"183", coordinate: CLLocationCoordinate2D(latitude : 59.9175441, longitude:30.3114188))
+
+    let odvodva = Lavka(number:"182", coordinate: CLLocationCoordinate2D(latitude : 59.9175594, longitude:30.3115633))
+
+    let odvood = Lavka(number:"181", coordinate: CLLocationCoordinate2D(latitude : 59.8909800, longitude:30.2786402))
+
+    let odvono = Lavka(number:"180", coordinate: CLLocationCoordinate2D(latitude : 59.8910097, longitude:30.2748378))
+
+    let odsede = Lavka(number:"179", coordinate: CLLocationCoordinate2D(latitude : 59.8910856, longitude:30.2751647))
+
+    let odsevo = Lavka(number:"178", coordinate: CLLocationCoordinate2D(latitude : 59.8909430, longitude:30.2752378))
+
+    let odsese = Lavka(number:"177", coordinate: CLLocationCoordinate2D(latitude : 59.8909083, longitude:30.2752026))
+
+    let odseshe = Lavka(number:"176", coordinate: CLLocationCoordinate2D(latitude : 59.8914511, longitude:30.2753635))
+
+    let odsepya = Lavka(number:"175", coordinate: CLLocationCoordinate2D(latitude : 59.8913597, longitude:30.2755982))
+
+    let odseche = Lavka(number:"174", coordinate: CLLocationCoordinate2D(latitude : 59.8914544, longitude:30.2753571))
+
+    let odsetri = Lavka(number:"173", coordinate: CLLocationCoordinate2D(latitude : 59.8914559, longitude:30.2758383))
+
+    let odsedva = Lavka(number:"172", coordinate: CLLocationCoordinate2D(latitude : 59.8915981, longitude:30.2755482))
+
+    let odseod = Lavka(number:"171", coordinate: CLLocationCoordinate2D(latitude : 59.8915158, longitude:30.2742330))
+
+    let odseno = Lavka(number:"170", coordinate: CLLocationCoordinate2D(latitude : 59.8916853, longitude:30.2737968))
+
+    let odshede = Lavka(number:"169", coordinate: CLLocationCoordinate2D(latitude : 59.8921591, longitude:30.2742155))
+
+    let odshevo = Lavka(number:"168", coordinate: CLLocationCoordinate2D(latitude : 59.8932118, longitude:30.2753293))
+
+    let odshese = Lavka(number:"167", coordinate: CLLocationCoordinate2D(latitude : 59.8932720, longitude:30.2756703))
+
+    let odsheshe = Lavka(number:"166", coordinate: CLLocationCoordinate2D(latitude : 59.8932981, longitude:30.2758430))
+
+    let odshepya = Lavka(number:"165", coordinate: CLLocationCoordinate2D(latitude : 59.8930870, longitude:30.2760549))
+
+    let odsheche = Lavka(number:"164", coordinate: CLLocationCoordinate2D(latitude : 59.8929635, longitude:30.2759110))
+
+    let odshetri = Lavka(number:"163", coordinate: CLLocationCoordinate2D(latitude : 59.8929190, longitude:30.2765249))
+
+    let odshedva = Lavka(number:"162", coordinate: CLLocationCoordinate2D(latitude : 59.8930293, longitude:30.2764511))
+
+    let odsheod = Lavka(number:"161", coordinate: CLLocationCoordinate2D(latitude : 59.8929175, longitude:30.2765229))
+
+    let odsheno = Lavka(number:"160", coordinate: CLLocationCoordinate2D(latitude : 59.8927718, longitude:30.2766161))
+
+    let odpyade = Lavka(number:"159", coordinate: CLLocationCoordinate2D(latitude : 59.8930966, longitude:30.2767898))
+
+    let odpyavo = Lavka(number:"158", coordinate: CLLocationCoordinate2D(latitude : 59.8912191, longitude:30.2781825))
+
+    let odpyase = Lavka(number:"157", coordinate: CLLocationCoordinate2D(latitude : 59.8911751, longitude:30.2783810))
+
+    let odpyashe = Lavka(number:"156", coordinate: CLLocationCoordinate2D(latitude : 59.8912773, longitude:30.2784467))
+
+    let odpyapya = Lavka(number:"155", coordinate: CLLocationCoordinate2D(latitude : 59.8913715, longitude:30.2780735))
+
+    let odpyache = Lavka(number:"154", coordinate: CLLocationCoordinate2D(latitude : 59.8919999, longitude:30.2780927))
+
+    let odpyatri = Lavka(number:"153", coordinate: CLLocationCoordinate2D(latitude : 59.8920557, longitude:30.2775022))
+
+    let odpyadva = Lavka(number:"152", coordinate: CLLocationCoordinate2D(latitude : 59.8921566, longitude:30.2775944))
+
+    let odpyaod = Lavka(number:"151", coordinate: CLLocationCoordinate2D(latitude : 59.8922064, longitude:30.2774080))
+
+    let odpyano = Lavka(number:"150", coordinate: CLLocationCoordinate2D(latitude : 59.8928719, longitude:30.2782707))
+
+    let odchede = Lavka(number:"149", coordinate: CLLocationCoordinate2D(latitude : 59.8926134, longitude:30.2782955))
+
+    let odchevo = Lavka(number:"148", coordinate: CLLocationCoordinate2D(latitude : 59.8926400, longitude:30.2778372))
+
+    let odchese = Lavka(number:"147", coordinate: CLLocationCoordinate2D(latitude : 59.8927658, longitude:30.2777691))
+
+    let odcheshe = Lavka(number:"146", coordinate: CLLocationCoordinate2D(latitude : 59.8928756, longitude:30.2779435))
+
+    let odchepya = Lavka(number:"145", coordinate: CLLocationCoordinate2D(latitude : 59.8928692, longitude:30.2782707))
+
+    let odcheche = Lavka(number:"144", coordinate: CLLocationCoordinate2D(latitude : 59.8895322, longitude:30.2639081))
+
+    let odchetri = Lavka(number:"143", coordinate: CLLocationCoordinate2D(latitude : 59.8896558, longitude:30.2612484))
+
+    let odchedva = Lavka(number:"142", coordinate: CLLocationCoordinate2D(latitude : 60.052540, longitude:30.351102))
+
+    let odcheod = Lavka(number:"141", coordinate: CLLocationCoordinate2D(latitude : 60.052446, longitude:30.350652))
+
+    let odcheno = Lavka(number:"140", coordinate: CLLocationCoordinate2D(latitude : 60.052348, longitude:30.350822))
+
+    let odtride = Lavka(number:"139", coordinate: CLLocationCoordinate2D(latitude : 60.052175, longitude:30.350619))
+
+    let odtrivo = Lavka(number:"138", coordinate: CLLocationCoordinate2D(latitude : 60.052094, longitude:30.350509))
+
+    let odtrise = Lavka(number:"137", coordinate: CLLocationCoordinate2D(latitude : 59.966846, longitude:30.258418))
+
+    let odtrishe = Lavka(number:"136", coordinate: CLLocationCoordinate2D(latitude : 59.967031, longitude:30.257951))
+
+    let odtripya = Lavka(number:"135", coordinate: CLLocationCoordinate2D(latitude : 59.966900, longitude:30.257674))
+
+    let odtriche = Lavka(number:"134", coordinate: CLLocationCoordinate2D(latitude : 59.966900, longitude:30.257674))
+
+    let odtritri = Lavka(number:"133", coordinate: CLLocationCoordinate2D(latitude : 59.930718, longitude:30.356645))
+
+    let odtridva = Lavka(number:"132", coordinate: CLLocationCoordinate2D(latitude : 59.930727, longitude:30.356606))
+
+
+    let odtriod = Lavka(number:"131", coordinate: CLLocationCoordinate2D(latitude : 59.930714, longitude:30.356742))
+     
+    let odtrino = Lavka(number:"130", coordinate: CLLocationCoordinate2D(latitude : 59.930825, longitude:30.356866))
+
+    let oddvade = Lavka(number:"129", coordinate: CLLocationCoordinate2D(latitude : 59.930757, longitude:30.356824))
+
+    let oddvavo = Lavka(number:"128", coordinate: CLLocationCoordinate2D(latitude : 59.901305, longitude:30.321482))
+
+    let oddvase = Lavka(number:"127", coordinate: CLLocationCoordinate2D(latitude : 59.901305, longitude:30.321354))
+
+    let oddvashe = Lavka(number:"126", coordinate: CLLocationCoordinate2D(latitude : 59.901175, longitude:30.321349))
+
+    let oddvapya = Lavka(number:"125", coordinate: CLLocationCoordinate2D(latitude : 59.901175, longitude:30.321483))
+
+    let oddvache = Lavka(number:"124", coordinate: CLLocationCoordinate2D(latitude : 59.901307, longitude:30.321482))
+
+    let oddvatri = Lavka(number:"123", coordinate: CLLocationCoordinate2D(latitude : 59.904260, longitude:30.320115))
+
+    let oddvadva = Lavka(number:"122", coordinate: CLLocationCoordinate2D(latitude : 59.904266, longitude:30.320199))
+
+    let oddvaod = Lavka(number:"121", coordinate: CLLocationCoordinate2D(latitude : 59.904274, longitude:30.320273))
+
+    let oddvano = Lavka(number:"120", coordinate: CLLocationCoordinate2D(latitude : 59.904230, longitude:30.320197))
+
+    let ododde = Lavka(number:"119", coordinate: CLLocationCoordinate2D(latitude : 59.904224, longitude:30.320122))
+
+    let ododvo = Lavka(number:"118", coordinate: CLLocationCoordinate2D(latitude : 59.904216, longitude:30.320048))
+
+    let ododse = Lavka(number:"117", coordinate: CLLocationCoordinate2D(latitude : 59.904207, longitude:30.319974))
+
+    let ododshe = Lavka(number:"116", coordinate: CLLocationCoordinate2D(latitude : 59.904275, longitude:30.319671))
+
+    let ododpya = Lavka(number:"115", coordinate: CLLocationCoordinate2D(latitude : 59.904286, longitude:30.319605))
+
+    let ododche = Lavka(number:"114", coordinate: CLLocationCoordinate2D(latitude : 59.904279, longitude:30.319541))
+
+    let ododtri = Lavka(number:"113", coordinate: CLLocationCoordinate2D(latitude : 59.904248, longitude:30.319503))
+
+    let ododdva = Lavka(number:"112", coordinate: CLLocationCoordinate2D(latitude : 59.904248, longitude:30.319503))
+
+    let ododod = Lavka(number:"111", coordinate: CLLocationCoordinate2D(latitude : 59.904593, longitude:30.312933))
+
+    let ododno = Lavka(number:"110", coordinate: CLLocationCoordinate2D(latitude : 59.904593, longitude:30.313234))
+
+    let odnode = Lavka(number:"109", coordinate: CLLocationCoordinate2D(latitude : 59.904598, longitude:30.314238))
+
+    let odnovo = Lavka(number:"108", coordinate: CLLocationCoordinate2D(latitude : 59.904599, longitude:30.313948))
+
+    let odnose = Lavka(number:"107", coordinate: CLLocationCoordinate2D(latitude : 59.904478, longitude:30.314185))
+
+    let odnoshe = Lavka(number:"106", coordinate: CLLocationCoordinate2D(latitude : 59.904469, longitude:30.313983))
+
+    let odnopya = Lavka(number:"105", coordinate: CLLocationCoordinate2D(latitude : 59.904428, longitude:30.313237))
+
+    let odnoche = Lavka(number:"104", coordinate: CLLocationCoordinate2D(latitude : 59.904428, longitude:30.313232))
+
+    let odnotri = Lavka(number:"103", coordinate: CLLocationCoordinate2D(latitude : 59.904486, longitude:30.313154))
+
+    let odnodva = Lavka(number:"102", coordinate: CLLocationCoordinate2D(latitude : 59.904486, longitude:30.313100))
+
+    let odnood = Lavka(number:"101", coordinate: CLLocationCoordinate2D(latitude : 59.911968, longitude:30.319042))
+    
     let odnono = Lavka(number:"100", coordinate: CLLocationCoordinate2D(latitude : 59.911956, longitude:30.318937 ))
      
     let dede = Lavka(number:"99", coordinate: CLLocationCoordinate2D(latitude : 59.911984, longitude:30.318841))
