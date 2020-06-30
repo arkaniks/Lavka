@@ -91,15 +91,6 @@ class ViewController: UIViewController {
     func SetupLavka() -> Void {
         
         MapView.addAnnotation(od)
-        
-        
-        
-        
-        
-        
-        
-        
-        
     }
     
     
