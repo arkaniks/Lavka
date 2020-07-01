@@ -43,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		860703FF24AD2E0300B3D0F4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				86484DDE24A2B1DB008FF590 /* SupportViewController.swift */,
+				86B18388249B96F500A94134 /* ViewController.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		86B18378249B96F400A94134 = {
 			isa = PBXGroup;
 			children = (
@@ -63,16 +72,15 @@
 		86B18383249B96F500A94134 /* lavka */ = {
 			isa = PBXGroup;
 			children = (
+				860703FF24AD2E0300B3D0F4 /* New Group */,
 				86B18384249B96F500A94134 /* AppDelegate.swift */,
 				86B18386249B96F500A94134 /* SceneDelegate.swift */,
-				86B18388249B96F500A94134 /* ViewController.swift */,
 				86B1838A249B96F500A94134 /* Main.storyboard */,
 				86B1838D249B96FC00A94134 /* Assets.xcassets */,
 				86B1838F249B96FC00A94134 /* LaunchScreen.storyboard */,
 				86B18392249B96FC00A94134 /* Info.plist */,
 				868671FD249E803700B872E3 /* Lavka.swift */,
 				868671FF249E93F500B872E3 /* CustomLavka.swift */,
-				86484DDE24A2B1DB008FF590 /* SupportViewController.swift */,
 			);
 			path = lavka;
 			sourceTree = "<group>";
