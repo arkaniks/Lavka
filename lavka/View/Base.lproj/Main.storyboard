@@ -32,6 +32,7 @@
                     <tabBarItem key="tabBarItem" title="" image="lavka" landscapeImage="lavka" largeContentSizeImage="lavka" id="FR5-kY-5VM"/>
                     <connections>
                         <outlet property="MapView" destination="zrz-5j-Xjx" id="kqU-yR-h9h"/>
+                        <outlet property="ViewMap" destination="8bC-Xf-vdC" id="The-2w-oat"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -47,32 +48,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="03e-0Q-a0E">
-                                <rect key="frame" x="45" y="280" width="325" height="173"/>
-                                <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="44.5" y="280" width="325" height="173"/>
+                                <color key="backgroundColor" red="0.73333333333333328" green="0.73333333333333328" blue="0.73333333333333328" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="173" id="EPT-bg-teb"/>
-                                    <constraint firstAttribute="width" constant="325" id="OUV-fu-19A"/>
+                                    <constraint firstAttribute="height" constant="173" id="Lu1-yj-hWB"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="325" id="xni-gj-OiO"/>
                                 </constraints>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Если у вас возникли проблемы или же, есть совет или предложение по улучшению - пожалуйста, напишите нам" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EhI-qC-E4b">
-                                <rect key="frame" x="20" y="44" width="374" height="228"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="228" id="BdA-do-CrP"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="obk-cS-pAa"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yLh-j6-BFZ">
                                 <rect key="frame" x="123" y="723" width="168" height="30"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="168" id="T4p-gu-3ps"/>
-                                    <constraint firstAttribute="height" constant="30" id="tLJ-ze-b0x"/>
+                                    <constraint firstAttribute="height" constant="30" id="aaW-hQ-aPI"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="168" id="hX2-dL-eR1"/>
                                 </constraints>
                                 <state key="normal" title="Отправить">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -82,24 +73,23 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.13333333333333333" green="0.12156862745098039" blue="0.12156862745098039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="0mx-1F-V8Z" firstAttribute="bottom" secondItem="yLh-j6-BFZ" secondAttribute="bottom" constant="60" id="5rN-2V-PZi"/>
-                            <constraint firstItem="03e-0Q-a0E" firstAttribute="leading" secondItem="0mx-1F-V8Z" secondAttribute="leading" constant="45" id="8gX-0P-yH0"/>
-                            <constraint firstItem="EhI-qC-E4b" firstAttribute="leading" secondItem="0mx-1F-V8Z" secondAttribute="leading" constant="20" id="9T2-fM-3Ou"/>
-                            <constraint firstItem="0mx-1F-V8Z" firstAttribute="trailing" secondItem="03e-0Q-a0E" secondAttribute="trailing" constant="44" id="HCf-6F-s75"/>
-                            <constraint firstItem="0mx-1F-V8Z" firstAttribute="trailing" secondItem="yLh-j6-BFZ" secondAttribute="trailing" constant="123" id="TIP-rU-ToU"/>
-                            <constraint firstItem="yLh-j6-BFZ" firstAttribute="leading" secondItem="0mx-1F-V8Z" secondAttribute="leading" constant="123" id="cuV-pl-upe"/>
-                            <constraint firstItem="0mx-1F-V8Z" firstAttribute="trailing" secondItem="EhI-qC-E4b" secondAttribute="trailing" constant="20" id="hDh-3A-iuK"/>
-                            <constraint firstItem="03e-0Q-a0E" firstAttribute="top" secondItem="EhI-qC-E4b" secondAttribute="bottom" constant="8" id="uI9-l0-W2O"/>
-                            <constraint firstItem="03e-0Q-a0E" firstAttribute="top" secondItem="EhI-qC-E4b" secondAttribute="bottom" constant="8" id="yTP-jU-B26"/>
-                            <constraint firstItem="EhI-qC-E4b" firstAttribute="top" secondItem="0mx-1F-V8Z" secondAttribute="top" id="zax-Nn-xHD"/>
+                            <constraint firstItem="03e-0Q-a0E" firstAttribute="centerX" secondItem="57d-1T-kVg" secondAttribute="centerX" id="Mq2-48-2fr"/>
+                            <constraint firstItem="0mx-1F-V8Z" firstAttribute="trailing" secondItem="yLh-j6-BFZ" secondAttribute="trailing" constant="123" id="NRg-Ko-Zkg"/>
+                            <constraint firstItem="yLh-j6-BFZ" firstAttribute="top" secondItem="03e-0Q-a0E" secondAttribute="bottom" constant="270" id="O5V-Ze-B2q"/>
+                            <constraint firstItem="03e-0Q-a0E" firstAttribute="leading" secondItem="0mx-1F-V8Z" secondAttribute="leading" constant="44.5" id="P1U-LC-BtR"/>
+                            <constraint firstItem="0mx-1F-V8Z" firstAttribute="trailing" secondItem="03e-0Q-a0E" secondAttribute="trailing" constant="44.5" id="Rm4-nu-NgG"/>
+                            <constraint firstItem="03e-0Q-a0E" firstAttribute="centerY" secondItem="57d-1T-kVg" secondAttribute="centerY" constant="-81.5" id="SEW-6o-PC6"/>
+                            <constraint firstItem="0mx-1F-V8Z" firstAttribute="bottom" secondItem="yLh-j6-BFZ" secondAttribute="bottom" constant="60" id="XIr-Jn-pbx"/>
+                            <constraint firstItem="yLh-j6-BFZ" firstAttribute="leading" secondItem="0mx-1F-V8Z" secondAttribute="leading" constant="123" id="aeA-9z-28k"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0mx-1F-V8Z"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="settings" landscapeImage="settings" largeContentSizeImage="settings" id="LaF-XT-pae"/>
                     <connections>
                         <outlet property="ButtonSupport" destination="yLh-j6-BFZ" id="PMw-Q4-zXY"/>
+                        <outlet property="SupportView" destination="57d-1T-kVg" id="rbF-ED-oJC"/>
                         <outlet property="TextSupport" destination="03e-0Q-a0E" id="pYL-W0-rHp"/>
                     </connections>
                 </viewController>
@@ -107,16 +97,17 @@
             </objects>
             <point key="canvasLocation" x="2327.536231884058" y="399.10714285714283"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Conroller-->
         <scene sceneID="DNp-Oq-JaN">
             <objects>
-                <tabBarController id="NmM-jC-Koi" sceneMemberID="viewController">
+                <tabBarController id="NmM-jC-Koi" customClass="MainTabBarConroller" customModule="lavka" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ofD-GM-CSC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
+                        <outlet property="MainTabBar" destination="ofD-GM-CSC" id="mce-m8-FFb"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="DmA-WW-r4H"/>
                         <segue destination="wdB-N0-zJL" kind="relationship" relationship="viewControllers" id="4Yo-PU-ntD"/>
                     </connections>

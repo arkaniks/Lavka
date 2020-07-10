@@ -9,8 +9,8 @@
 import Foundation
 import MapKit
 
-class LavkaMarkers: MKMarkerAnnotationView {
-    override var annotation: MKAnnotation?{
+public class LavkaMarkers: MKMarkerAnnotationView {
+    public override var annotation: MKAnnotation?{
         willSet{
             guard let places = newValue as? Lavka else{
                 return

@@ -15,18 +15,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="064-fr-dpu">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lavka" translatesAutoresizingMaskIntoConstraints="NO" id="064-fr-dpu">
+                                <rect key="frame" x="141.5" y="413" width="131" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="7Ws-sq-h9c"/>
+                                    <constraint firstAttribute="width" constant="131" id="7kA-Qr-gyG"/>
+                                </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="064-fr-dpu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="EDr-ZF-6UV"/>
+                            <constraint firstItem="064-fr-dpu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="UQd-Hg-cmy"/>
+                            <constraint firstItem="064-fr-dpu" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="VLJ-mw-NNn"/>
+                            <constraint firstItem="064-fr-dpu" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="wZR-2N-1oq"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="lavka" width="30" height="30"/>
+    </resources>
 </document>

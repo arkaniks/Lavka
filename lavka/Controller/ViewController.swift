@@ -12,6 +12,7 @@ import MapKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ViewMap: UIView!
     @IBOutlet weak var MapView: MKMapView!
     
     let LocalMeneger = CLLocationManager()
@@ -23,6 +24,7 @@ class ViewController: UIViewController {
     }
     override func viewDidAppear(_ animated: Bool) { //после загрузки карты
         super.viewDidAppear(animated)
+        ViewMap.overrideUserInterfaceStyle = .dark
         ChekLocal()
         SetupLavka()
     }
@@ -91,6 +93,7 @@ class ViewController: UIViewController {
     func SetupLavka() -> Void {
         
         MapView.addAnnotation(Lavka.od)
+        MapView.addAnnotation(Lavka.dva)
     }
 }
 

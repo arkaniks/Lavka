@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8607040724AD3A8900B3D0F4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8607040624AD3A8900B3D0F4 /* Default-568h@2x.png */; };
 		86484DDF24A2B1DB008FF590 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86484DDE24A2B1DB008FF590 /* SupportViewController.swift */; };
+		865E99B924B4C9D0005760BA /* MainTabBarConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E99B824B4C9D0005760BA /* MainTabBarConroller.swift */; };
 		868671FE249E803700B872E3 /* Lavka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868671FD249E803700B872E3 /* Lavka.swift */; };
 		86867200249E93F500B872E3 /* CustomLavka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868671FF249E93F500B872E3 /* CustomLavka.swift */; };
 		86B18385249B96F500A94134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B18384249B96F500A94134 /* AppDelegate.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		8607040624AD3A8900B3D0F4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		86484DDE24A2B1DB008FF590 /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		865E99B824B4C9D0005760BA /* MainTabBarConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarConroller.swift; sourceTree = "<group>"; };
 		868671FD249E803700B872E3 /* Lavka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lavka.swift; sourceTree = "<group>"; };
 		868671FF249E93F500B872E3 /* CustomLavka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLavka.swift; sourceTree = "<group>"; };
 		86B18381249B96F500A94134 /* lavka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lavka.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,9 +50,9 @@
 		860703FF24AD2E0300B3D0F4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				868671FF249E93F500B872E3 /* CustomLavka.swift */,
 				86484DDE24A2B1DB008FF590 /* SupportViewController.swift */,
 				86B18388249B96F500A94134 /* ViewController.swift */,
+				865E99B824B4C9D0005760BA /* MainTabBarConroller.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -58,6 +60,7 @@
 		8607040324AD397600B3D0F4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				868671FF249E93F500B872E3 /* CustomLavka.swift */,
 				868671FD249E803700B872E3 /* Lavka.swift */,
 			);
 			path = Model;
@@ -193,6 +196,7 @@
 			files = (
 				86B18389249B96F500A94134 /* ViewController.swift in Sources */,
 				868671FE249E803700B872E3 /* Lavka.swift in Sources */,
+				865E99B924B4C9D0005760BA /* MainTabBarConroller.swift in Sources */,
 				86484DDF24A2B1DB008FF590 /* SupportViewController.swift in Sources */,
 				86B18385249B96F500A94134 /* AppDelegate.swift in Sources */,
 				86B18387249B96F500A94134 /* SceneDelegate.swift in Sources */,
