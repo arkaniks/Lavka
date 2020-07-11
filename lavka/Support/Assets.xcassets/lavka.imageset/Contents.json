@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "icons8-городская-скамейка-30.png",
+      "filename" : "30x30.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "icons8-городская-скамейка-60.png",
+      "filename" : "60x60gm.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "icons8-городская-скамейка-90.png",
+      "filename" : "90kh90.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

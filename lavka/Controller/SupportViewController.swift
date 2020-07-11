@@ -15,8 +15,14 @@ class SupportViewController: UIViewController {
     
     @IBOutlet weak var ButtonSupport: UIButton!
     
+    
+    @IBOutlet weak var SupportView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        SupportView.overrideUserInterfaceStyle = .light
+        ButtonSupport.layer.cornerRadius = 10
+        TextSupport.layer.cornerRadius = 8
         TextSupport.delegate = self
         TextSupport.text = "Расскажите о своей проблеме или же о своем предложении..."
         

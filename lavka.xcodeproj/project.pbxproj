@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8607040724AD3A8900B3D0F4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8607040624AD3A8900B3D0F4 /* Default-568h@2x.png */; };
 		86484DDF24A2B1DB008FF590 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86484DDE24A2B1DB008FF590 /* SupportViewController.swift */; };
+		865E99B924B4C9D0005760BA /* MainTabBarConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E99B824B4C9D0005760BA /* MainTabBarConroller.swift */; };
+		865E99DB24B8F8CE005760BA /* ExtenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E99DA24B8F8CD005760BA /* ExtenViewController.swift */; };
 		868671FE249E803700B872E3 /* Lavka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868671FD249E803700B872E3 /* Lavka.swift */; };
 		86867200249E93F500B872E3 /* CustomLavka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868671FF249E93F500B872E3 /* CustomLavka.swift */; };
 		86B18385249B96F500A94134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B18384249B96F500A94134 /* AppDelegate.swift */; };
@@ -19,7 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8607040624AD3A8900B3D0F4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		86484DDE24A2B1DB008FF590 /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		865E99B824B4C9D0005760BA /* MainTabBarConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarConroller.swift; sourceTree = "<group>"; };
+		865E99DA24B8F8CD005760BA /* ExtenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtenViewController.swift; sourceTree = "<group>"; };
 		868671FD249E803700B872E3 /* Lavka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lavka.swift; sourceTree = "<group>"; };
 		868671FF249E93F500B872E3 /* CustomLavka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLavka.swift; sourceTree = "<group>"; };
 		86B18381249B96F500A94134 /* lavka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lavka.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,9 +49,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		860703FF24AD2E0300B3D0F4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				86484DDE24A2B1DB008FF590 /* SupportViewController.swift */,
+				86B18388249B96F500A94134 /* ViewController.swift */,
+				865E99B824B4C9D0005760BA /* MainTabBarConroller.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8607040324AD397600B3D0F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				868671FF249E93F500B872E3 /* CustomLavka.swift */,
+				868671FD249E803700B872E3 /* Lavka.swift */,
+				865E99DA24B8F8CD005760BA /* ExtenViewController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8607040424AD39C900B3D0F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86B1838A249B96F500A94134 /* Main.storyboard */,
+				86B1838F249B96FC00A94134 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8607040524AD39D800B3D0F4 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				86B18384249B96F500A94134 /* AppDelegate.swift */,
+				86B18386249B96F500A94134 /* SceneDelegate.swift */,
+				86B1838D249B96FC00A94134 /* Assets.xcassets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		86B18378249B96F400A94134 = {
 			isa = PBXGroup;
 			children = (
+				8607040624AD3A8900B3D0F4 /* Default-568h@2x.png */,
 				86B18383249B96F500A94134 /* lavka */,
 				86B18382249B96F500A94134 /* Products */,
 				AEF3A0097C00224D17196042 /* Pods */,
@@ -63,16 +109,11 @@
 		86B18383249B96F500A94134 /* lavka */ = {
 			isa = PBXGroup;
 			children = (
-				86B18384249B96F500A94134 /* AppDelegate.swift */,
-				86B18386249B96F500A94134 /* SceneDelegate.swift */,
-				86B18388249B96F500A94134 /* ViewController.swift */,
-				86B1838A249B96F500A94134 /* Main.storyboard */,
-				86B1838D249B96FC00A94134 /* Assets.xcassets */,
-				86B1838F249B96FC00A94134 /* LaunchScreen.storyboard */,
+				860703FF24AD2E0300B3D0F4 /* Controller */,
+				8607040324AD397600B3D0F4 /* Model */,
+				8607040424AD39C900B3D0F4 /* View */,
+				8607040524AD39D800B3D0F4 /* Support */,
 				86B18392249B96FC00A94134 /* Info.plist */,
-				868671FD249E803700B872E3 /* Lavka.swift */,
-				868671FF249E93F500B872E3 /* CustomLavka.swift */,
-				86484DDE24A2B1DB008FF590 /* SupportViewController.swift */,
 			);
 			path = lavka;
 			sourceTree = "<group>";
@@ -143,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86B18391249B96FC00A94134 /* LaunchScreen.storyboard in Resources */,
+				8607040724AD3A8900B3D0F4 /* Default-568h@2x.png in Resources */,
 				86B1838E249B96FC00A94134 /* Assets.xcassets in Resources */,
 				86B1838C249B96F500A94134 /* Main.storyboard in Resources */,
 			);
@@ -157,10 +199,12 @@
 			files = (
 				86B18389249B96F500A94134 /* ViewController.swift in Sources */,
 				868671FE249E803700B872E3 /* Lavka.swift in Sources */,
+				865E99B924B4C9D0005760BA /* MainTabBarConroller.swift in Sources */,
 				86484DDF24A2B1DB008FF590 /* SupportViewController.swift in Sources */,
 				86B18385249B96F500A94134 /* AppDelegate.swift in Sources */,
 				86B18387249B96F500A94134 /* SceneDelegate.swift in Sources */,
 				86867200249E93F500B872E3 /* CustomLavka.swift in Sources */,
+				865E99DB24B8F8CE005760BA /* ExtenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +358,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = stude.lavka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = stude.lavka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

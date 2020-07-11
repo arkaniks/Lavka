@@ -12,6 +12,7 @@ import MapKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ViewMap: UIView!
     @IBOutlet weak var MapView: MKMapView!
     
     let LocalMeneger = CLLocationManager()
@@ -23,10 +24,9 @@ class ViewController: UIViewController {
     }
     override func viewDidAppear(_ animated: Bool) { //после загрузки карты
         super.viewDidAppear(animated)
+        ViewMap.overrideUserInterfaceStyle = .dark
         ChekLocal()
-        
-        
-        MapView.addAnnotation(one)
+        SetupLavka()
     }
     
    func SetupMeneger() -> Void {
@@ -89,24 +89,16 @@ class ViewController: UIViewController {
         alert.addAction(cansel)
         present(alert, animated: true, completion: nil)
     }
-    
-    let one = Lavka(number: "1", coordinate: CLLocationCoordinate2D(latitude: 60.04376078040768, longitude: 30.37741184234619))
 }
 
 
 
 extension ViewController:CLLocationManagerDelegate // задаем делегат для геопозиции
 {
-    
-    
-    
-    
     public func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.last?.coordinate{
             let region = MKCoordinateRegion(center: location, latitudinalMeters: 5000, longitudinalMeters: 5000) // определение радиуса при нахождении человека или женщины
             MapView.setRegion(region, animated: true)
-            
-            
             }
         }
     public func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
@@ -115,6 +107,5 @@ extension ViewController:CLLocationManagerDelegate // задаем делега�
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         ChekAlert(title: "Произошла критическая ошибка", message: "Eror №1", url: nil)
     }
-    
 }
 
