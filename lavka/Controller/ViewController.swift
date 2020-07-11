@@ -89,12 +89,6 @@ class ViewController: UIViewController {
         alert.addAction(cansel)
         present(alert, animated: true, completion: nil)
     }
-    
-    func SetupLavka() -> Void {
-        
-        MapView.addAnnotation(Lavka.od)
-        MapView.addAnnotation(Lavka.dva)
-    }
 }
 
 
