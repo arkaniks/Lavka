@@ -29,7 +29,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="lavka" landscapeImage="lavka" largeContentSizeImage="lavka" id="FR5-kY-5VM"/>
+                    <tabBarItem key="tabBarItem" title="" image="lavka" landscapeImage="settings" largeContentSizeImage="settings" id="FR5-kY-5VM"/>
                     <connections>
                         <outlet property="MapView" destination="zrz-5j-Xjx" id="kqU-yR-h9h"/>
                         <outlet property="ViewMap" destination="8bC-Xf-vdC" id="The-2w-oat"/>
@@ -122,8 +122,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="lavka" width="124.5" height="124.5"/>
+        <image name="lavka" width="125.5" height="126"/>
         <image name="lavkaa" width="125" height="125"/>
+        <image name="settings" width="30" height="30"/>
         <image name="support" width="30" height="30"/>
     </resources>
 </document>
