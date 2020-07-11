@@ -55,7 +55,7 @@ class Lavka:NSObject, MKAnnotation
 
    static let trinoche = Lavka(number:"№304", coordinate: CLLocationCoordinate2D(latitude : 59.9369900, longitude :30.3085850))
 
-   static let one = Lavka(number:"№303", coordinate: CLLocationCoordinate2D(latitude : 59.9370110, longitude :30.3086340))
+   static let trinotri = Lavka(number:"№303", coordinate: CLLocationCoordinate2D(latitude : 59.9370110, longitude :30.3086340))
 
    static let trinodva = Lavka(number:"№302", coordinate: CLLocationCoordinate2D(latitude : 59.9370295, longitude :30.3086849))
 
@@ -69,11 +69,11 @@ class Lavka:NSObject, MKAnnotation
 
    static let dvadese = Lavka(number:"№297", coordinate: CLLocationCoordinate2D(latitude : 59.9372606, longitude :30.3092707))
 
-   static let dvedeshe = Lavka(number:"№296", coordinate: CLLocationCoordinate2D(latitude : 59.9372805, longitude :30.3093203))
+   static let dvadeshe = Lavka(number:"№296", coordinate: CLLocationCoordinate2D(latitude : 59.9372805, longitude :30.3093203))
 
-   static let dvedepya = Lavka(number:"№295", coordinate: CLLocationCoordinate2D(latitude : 59.9373005, longitude :30.3093655))
+   static let dvadepya = Lavka(number:"№295", coordinate: CLLocationCoordinate2D(latitude : 59.9373005, longitude :30.3093655))
 
-   static let dvedeche = Lavka(number:"№294", coordinate: CLLocationCoordinate2D(latitude : 59.9373269, longitude :30.3094370))
+   static let dvadeche = Lavka(number:"№294", coordinate: CLLocationCoordinate2D(latitude : 59.9373269, longitude :30.3094370))
 
    static let dvadetri = Lavka(number:"№293", coordinate: CLLocationCoordinate2D(latitude : 59.9373445, longitude :30.3094812))
 
@@ -103,9 +103,9 @@ class Lavka:NSObject, MKAnnotation
 
    static let dvavono = Lavka(number:"№280", coordinate: CLLocationCoordinate2D(latitude : 59.9376919, longitude:30.3103895))
 
-   static let dvesede = Lavka(number:"№279", coordinate: CLLocationCoordinate2D(latitude : 59.9377112, longitude:30.3104287))
+   static let dvasede = Lavka(number:"№279", coordinate: CLLocationCoordinate2D(latitude : 59.9377112, longitude:30.3104287))
 
-   static let dvesevo = Lavka(number:"№278", coordinate: CLLocationCoordinate2D(latitude : 59.9377382, longitude:30.3105078))
+   static let dvasevo = Lavka(number:"№278", coordinate: CLLocationCoordinate2D(latitude : 59.9377382, longitude:30.3105078))
 
    static let dvasese = Lavka(number:"№277 ", coordinate: CLLocationCoordinate2D(latitude : 59.9377545, longitude:30.3105514))
 
@@ -135,7 +135,7 @@ class Lavka:NSObject, MKAnnotation
 
    static let dvasheche = Lavka(number:"№264 ", coordinate: CLLocationCoordinate2D(latitude : 59.9369075, longitude:30.3099308))
 
-   static let dvesshetr = Lavka(number:"№263 ", coordinate: CLLocationCoordinate2D(latitude : 59.9369423, longitude:30.3099483))
+   static let dvashetri = Lavka(number:"№263 ", coordinate: CLLocationCoordinate2D(latitude : 59.9369423, longitude:30.3099483))
 
    static let dveshedva = Lavka(number:"№262 ", coordinate: CLLocationCoordinate2D(latitude : 59.9369860, longitude:30.3099697))
 
